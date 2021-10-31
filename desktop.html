@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" media="screen and (min-width:800px)" href="desktop.css"/>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="desktop.css">
+    <title>Document</title>
+    <script> 
+    const storedCssPath=localStorage.getItem("layoutCssPath")
+    if(storedCssPath){
+        setCss(storedCssPath);
+    }
+    function setCss(cssPath){
+        document.querySelector("link").href=cssPath;
+        localStorage.setItem("layoutCssPath", cssPath);
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            
+            <img src="image/image 4.jpg" height="100" width="50" class="logo">
+        <header class="header">
+            [Esc] Hackers Escspe Rooms   
+        </header>
+        
+           <ul> <li>play-online</li>   <li> play-onsite</li>  <li>The story</li>  <li class="headerList">Contact-us </li> </ul></div>
+        <div class="first">
+            <img src ="image/image2.png" class="img1" width="600" height="400">
+            <button type="button" class= "btn">Online challenges</button> 
+            <button type="button" class="btn2">On-site challenges</button>
+        </div>
+    </br>
+   
+    <div class="circleImage">
+        <img src="image/image3.png" class="quotesImg" height="50" gap="200px" width="50">
+        <p class="para1">This is a quotes about how amazing this place is and how much fun me and my friends had when we tried it.</p></br> 
+        <p class="small">-quotes Author</p>
+    </div>
+         </div>
+         <div class="circleImage1">
+            <img src="image/image3.png" class="quotesImg2" height="50" width="50">
+           <p class="para2">This is a quotes about how amazing this place is and how much fun me and my friends had when we tried it.</p></br> 
+           <p class="small1">-quotes Author</p>
+        </div>
+        <p class="challenge">Popular challenge right now</p></div>
+
+        <div class="wrapper">
+        <aside class="left">
+            <img src="image/image2.png" class="imgLeft">
+            <h2>Title of challenges.</h2></br>
+            <p class="paraLeft">2 participants(networked).</p> 
+            <p class="paraLeft2"> Lorem ipsum används ofta som exempeltext inom trycksaksframställning och grafisk design för att visa.</p>
+            <button class="btn1">Take challenge online.</button>
+        </aside>
+        <main class="main">
+            <img src="image/image2.png">
+            <h2> Title of room(on-site)</h2></br>
+            <p class="paraMain">2-6 participants(networked).</p>
+            <p class="paraMain2">Lorem ipsum används ofta som exempeltext inom trycksaksframställning och grafisk design för att visa.</p>
+            <button class="btn2">Book this room.</button>
+        </main>
+        <aside class="right">
+            <img src="image/image2.png">
+            <h2> Title of rooms(on-site).</h2></br>
+           <p class="paraRight"> 2-6 participants(networked).</p>
+           <p class="paraRight2"> Lorem ipsum används ofta som exempeltext inom trycksaksframställning och grafisk design för att visa.</p>
+            <button class="btn3">Book this room.</button>
+        </aside>
+
+        </div>
+
+        <div class="twoButtons">
+        <button class="firstLink">All Online challenges</button> 
+        <button class="firstLinkonsite">All On-site challenges</button>
+        </div>
+
+        <div class="middle">
+        <p class="paraLast">Quodsi haberent magnalia inter potentiam et divitias, etmnon illam quidem haec eo spectant haec quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.</p>
+            <button class="readStory">Read full story</button> </div>
+
+            <div class="box1">
+            <img src="image/img5.png" class="imgBox1">
+            <p class="paraBox1">Play with your friend or build your team stronger at work.</br></br>
+                Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima. 
+            Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.</p>
+             <button class="btnBox1">Book on-site today</button> 
+        </div>
+
+            <div class="box2">
+            <img src="image/img6.png" class="imgBox2">
+            <p class="paraBox2">Play online or visit our venue for one of our 25 escape rooms.</br></br>
+                Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima.
+            Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.</p>
+             <button class="btnBox2">Book on-site</button>   
+        </div>
+
+        <footer class="footer">
+            <div class="footerCol">
+            <div class="footerLeft">
+           <b>[Esc] Hackers Escspe Rooms.</b></br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+
+                  <ul class="footerMain">
+                <li><b>Site map</b></li></br>
+                <li>The srory</li>
+                <li>Contact us</li>
+                <li>legal</li></ul>
+
+                <ul class= footerList><li>Play online</li>
+                <li>Play on-site</li>
+            </ul>
+
+            <ul class="footerRight">
+              <li><b>Follow us on</b></li></br>  
+              <li>Facebook</li> 
+               <li>Instagram</li>
+               <li>YouTube</li> 
+            </ul>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>

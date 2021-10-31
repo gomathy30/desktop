@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+   <link rel="stylesheet" type="text/css" href="layout.css"/>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="layout.css">
+    <title>Document</title>
+    <script> 
+    const storedCssPath=localStorage.getItem("layoutCssPath")
+    if(storedCssPath){
+        setCss(storedCssPath);
+    }
+    function setCss(cssPath){
+        document.querySelector("link").href=cssPath;
+        localStorage.setItem("layoutCssPath", cssPath);
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            
+        <img src="image/image 4.jpg" height="100" width="50" class="logo">
+        <div class="header">[Esc]  Hackers Escspe Rooms  
+        <ul class="unorderedList"> <li>play-online</li>   <li> play-onsite</li>  <li>The story</li>  <li class="li1">Contact-us </li> </ul></div></div>
+        <div class="first">
+            <img src ="image/image 2.png" class="img1" alt="" height="300" width="100%">
+           
+            <button class="btnCh">Online challenge</button>
+            <button class="btnOn">On-site Challenge</button>
+        </div>
+    </br>
+     <div class="circleImage">
+ <img src="image/image3.png" height="50" gap="200px" width="50"></div>
+    <ul class="para1"><li>This is a quotes about how amazing this place is and how much fun me and my friends had when we tried it.</li><li class="innerList">Johnn Doe,visited us in september 2021</li></ul></div>
+    <div class="circleImage1">
+        <img src="image/image3.png" height="50" width="50"></div>
+         <ul class="para2"><li>This is a quotes about how amazing this place is and how much fun me and my friends had when we tried it.</li><li class="innerList"> Johnn Doe,visited us in september 2021</li</ul>
+         </div>
+         
+        
+    <p class="para">Popular challenge right now</p>
+    
+      
+    <div class="wrapper">
+        <aside class="left">
+            <img src="image/hacker.jpg" height="200">
+            <ul><h2>Title of challenges.</h2>
+            <li>2 participants(networked).</li></br><li></br>Lorem ipsum används ofta som exempeltext inom trycksaksframställning och grafisk design för att visa.</li></ul>
+            <button class="btn1">Take challenge online.</button>
+        </aside>
+        <main class="main">
+            <img src="image/hacker.jpg" height="200">
+            <ul><h2> Title of room(on-site)</h2>
+        <li>2-6 participants(networked).</li><li></br>Lorem ipsum används ofta som exempeltext inom trycksaksframställning och grafisk design för att visa.</li></ul>
+            <button class="btn2">Book this room.</button>
+        </main>
+        <aside class="right">
+            <img src="image/hacker.jpg" height="200">
+            <ul><h2> Title of rooms(on-site).</h2>
+           <li> 2-6 participants(networked).</li> <li></br>Lorem ipsum används ofta som exempeltext inom trycksaksframställning och grafisk design för att visa.</li></ul>
+            <button class="btn3">Book this room.</button>
+        </aside>
+
+        </div>
+        <button class="firstLink">All Online challenges</button>
+        <button class="firstLinkonsite">All On-site challenges</button>
+         <div class="middle">
+        <p class="paraLast">Quodsi haberent magnalia inter potentiam et divitias, etmnon illam quidem haec eo spectant haec quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.
+            <button class="readStory">Read full story.</button></p></div>
+            <div class="content">
+            <div class="box1">
+            <img src="image/img5.png" class="imgBox1"/>
+            <p class="paraBox1"><b>Play with your friend box1or build your team stronger at work.</b></br></br>
+                Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima. Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.
+            
+            <button class="btnBox1">Book on-site today</button> </p>
+        </div>
+            <div class="box2">
+            <img src="image/img6.png" class= "imgBox2"/>
+            <p class="paraBox2"><b>Play online or visit our venue for one of our 25 escape rooms.</b></br></br>
+                Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima. Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.
+             
+            <button class="onlineButton">Play online</button>
+            <button class="onlineButton">Book on-site</button>  </p>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="footerLeft">
+           <b>[Esc] Hackers Escspe Rooms.</b></br>
+          
+                </div>
+                  <ul class="footerMain">
+                <li><b>Site map</b></li>
+                <li>The srory</li>
+                <li>Contact us</li>
+                <li>legal</li></br></ul>
+              <ul class="footerlist"> <li>Play online</li>
+                <li>Play on-site</li>
+            </ul>
+            <ul class="footerRight">
+              <li><b>Follow us on</b></li>  
+              <li>Facebook</li> 
+               <li>Instagram</li>
+               <li>YouTube</li> 
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
